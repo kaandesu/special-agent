@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data and model files (regenerate, don't commit)
+data/generated/
+checkpoints/
+*.bin
+*.pt
+*.pth
+
+# CUDA build output
+build/
+*.o
+cuda/agent
+
+# Profiler reports (large; keep summaries in experiments/ instead)
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.sqlite
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Course example proposals: other students' work, not for a public repo (kept locally only)
+docs/course/example-proposals/*.pdf
